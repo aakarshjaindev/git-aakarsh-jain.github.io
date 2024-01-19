@@ -6,75 +6,10 @@
     <link rel="stylesheet" href="styles.css">
     <title>aakarsh's Cosmos</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .header-container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size: 16px;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #f8f8f8;
-        }
-
-        main {
-            padding: 20px;
-        }
+        /* Add your existing styles here */
 
         .about-section {
-            background-color: #fff;
-            color: #333;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .contact-info {
             text-align: left;
-            margin-bottom: 20px;
         }
 
         .contact-info dl {
@@ -83,64 +18,21 @@
             gap: 10px;
         }
 
-        .professional-summary {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        .skills {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        .education {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        .technical-skills {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
+        .professional-summary,
+        .skills,
+        .education,
+        .technical-skills,
         .courses-books {
-            text-align: left;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
+        .courses-books p {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>aakarsh's Cosmos</h1>
-        </div>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#coding">Coding</a></li>
-            <li><a href="#running">Running</a></li>
-            <li><a href="#hacking">Hacking</a></li>
-            <li><a href="#justice">Justice</a></li>
-            <li><a href="#meditation">Meditation</a></li>
-            <li><a href="#fitness">Fitness</a></li>
-            <li><a href="#journey">Journey</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Your existing HTML code -->
 
     <main>
         <section id="about" class="about-section">
@@ -164,27 +56,64 @@
 
                 <div class="skills">
                     <h3>Skills</h3>
-                    <p>Web Scraping (bs4, selenium, scrapy), Data Science, Data Engineering, Data Preprocessing and Analysis, Python and MySQL, Git and Version Control, SOLID Design Principles, System Design Patterns, Test Driven Development, Clean Code Architecture</p>
+                    <ul>
+                        <li>Web Scraping (bs4, selenium, scrapy)</li>
+                        <li>Data Science, Data Engineering, Data Preprocessing and Analysis</li>
+                        <li>Python and MySQL, Git and Version Control</li>
+                        <li>SOLID Design Principles, System Design Patterns, Test Driven Development</li>
+                        <li>Clean Code Architecture</li>
+                    </ul>
                 </div>
 
                 <div class="education">
                     <h3>Education</h3>
-                    <p>Pursuing: Data Analysis Course by DUCAT and Google<br>
-                        Self-Study: Machine learning from Waterloop, Freecode camp by Charles Savernce, Code basis - TensorFlow playlist, Fast AI<br>
-                        Completed: Higher Education in 12th</p>
+                    <p>Pursuing: Data Analysis Course by DUCAT and Google</p>
+                    <p>Self-Study:
+                        <ul>
+                            <li>Machine learning from Waterloop</li>
+                            <li>Freecode camp by Charles Savernce</li>
+                            <li>Code basis - TensorFlow playlist</li>
+                            <li>Fast AI</li>
+                        </ul>
+                    </p>
+                    <p>Completed: Higher Education in 12th</p>
                 </div>
 
                 <div class="technical-skills">
                     <h3>Technical Skills</h3>
-                    <p>Data visualization (Matplotlib, Seaborn), Machine learning models (SVM, Decision tree, Clustering, Outlier detection, KNN, Naive Bayes), Model Development and Evaluation, Neural Network Architectures</p>
+                    <ul>
+                        <li>Data visualization (Matplotlib, Seaborn)</li>
+                        <li>Machine learning models (SVM, Decision tree, Clustering, Outlier detection, KNN, Naive Bayes)</li>
+                        <li>Model Development and Evaluation</li>
+                        <li>Neural Network Architectures</li>
+                    </ul>
                 </div>
 
                 <div class="courses-books">
                     <h3>Courses & Books</h3>
-                    <p>EDX - Harvard CS50<br>
-                        COURSERA – Neural Networks, Programming for Everybody, Getting started with Python, Machine learning Specialization by Andrew NG<br>
-                        Kaggle Micro Courses - Beginner machine learning, Tensorflow, Deep learning, Pandas, Intro deep learning, Python, Pandas, Intro to machine learning, Intro to SQL, Intro to AI ethics<br>
-                        Books: Hands-on Machine Learning with Scikit learn and TensorFlow by Aurelian, Geron Deep Learning with Python by Francois Chollet</p>
+                    <p>EDX - Harvard CS50</p>
+                    <p>COURSERA:
+                        <ul>
+                            <li>Neural Networks</li>
+                            <li>Programming for Everybody</li>
+                            <li>Getting started with Python</li>
+                            <li>Machine learning Specialization by Andrew NG</li>
+                        </ul>
+                    </p>
+                    <p>Kaggle Micro Courses:
+                        <ul>
+                            <li>Beginner machine learning</li>
+                            <li>Tensorflow, Deep learning, Pandas</li>
+                            <li>Intro deep learning, Python, Pandas</li>
+                            <li>Intro to machine learning, Intro to SQL, Intro to AI ethics</li>
+                        </ul>
+                    </p>
+                    <p>Books:
+                        <ul>
+                            <li>Hands-on Machine Learning with Scikit learn and TensorFlow by Aurelian</li>
+                            <li>Geron Deep Learning with Python by Francois Chollet</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </section>
@@ -193,10 +122,7 @@
 
     </main>
 
-    <footer>
-        <div class="footer-container">
-            <p>The end. 🚀🌌✨</p>
-        </div>
-    </footer>
+    <!-- Your existing HTML code -->
+
 </body>
 </html>
