@@ -5,6 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>aakarsh's Cosmos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f8f8f8;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .about-section {
+            background-color: #fff;
+            color: #333;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .contact-info dl {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+        }
+
+        .professional-summary {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .education {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .technical-skills {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .courses-books {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -31,79 +146,46 @@
         <section id="about" class="about-section">
             <div class="content-container">
                 <h2>About Me</h2>
-                <article>
-                    <header>
-                        <h3>Contact Information</h3>
-                    </header>
+
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
                     <dl>
                         <dt>Email:</dt>
                         <dd>aakarsh_jain@outlook.com</dd>
                         <dt>Phone:</dt>
                         <dd>8570935886</dd>
                     </dl>
-                </article>
+                </div>
 
-                <article>
-                    <header>
-                        <h3>Languages</h3>
-                    </header>
-                    <p>Python (NumPy, Pandas, Scikit-learn, TensorFlow)<br>
-                    HTML, CSS, JavaScript</p>
-                </article>
+                <div class="professional-summary">
+                    <h3>Professional Summary</h3>
+                    <p>I am a passionate individual with a strong background in machine learning and a deep love for coding. I believe in pushing boundaries and exploring the uncharted territories of IT.</p>
+                </div>
 
-                <article>
-                    <header>
-                        <h3>Python Projects</h3>
-                    </header>
-                    <p>Webcrawler, Hangman</p>
-                </article>
-
-                <article>
-                    <header>
-                        <h3>Machine Learning Projects</h3>
-                    </header>
-                    <p>Conducted data analysis, feature engineering, and data preprocessing to improve the quality of training data.</p>
-                </article>
-
-                <article>
-                    <header>
-                        <h3>Skills</h3>
-                    </header>
+                <div class="skills">
+                    <h3>Skills</h3>
                     <p>Web Scraping (bs4, selenium, scrapy), Data Science, Data Engineering, Data Preprocessing and Analysis, Python and MySQL, Git and Version Control, SOLID Design Principles, System Design Patterns, Test Driven Development, Clean Code Architecture</p>
-                </article>
+                </div>
 
-                <article>
-                    <header>
-                        <h3>Education</h3>
-                    </header>
+                <div class="education">
+                    <h3>Education</h3>
                     <p>Pursuing: Data Analysis Course by DUCAT and Google<br>
                         Self-Study: Machine learning from Waterloop, Freecode camp by Charles Savernce, Code basis - TensorFlow playlist, Fast AI<br>
                         Completed: Higher Education in 12th</p>
-                </article>
+                </div>
 
-                <article>
-                    <header>
-                        <h3>Technical Skills</h3>
-                    </header>
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
                     <p>Data visualization (Matplotlib, Seaborn), Machine learning models (SVM, Decision tree, Clustering, Outlier detection, KNN, Naive Bayes), Model Development and Evaluation, Neural Network Architectures</p>
-                </article>
+                </div>
 
-                <article>
-                    <header>
-                        <h3>Courses</h3>
-                    </header>
+                <div class="courses-books">
+                    <h3>Courses & Books</h3>
                     <p>EDX - Harvard CS50<br>
                         COURSERA – Neural Networks, Programming for Everybody, Getting started with Python, Machine learning Specialization by Andrew NG<br>
-                        Kaggle Micro Courses - Beginner machine learning, Tensorflow, Deep learning, Pandas, Intro deep learning, Python, Pandas, Intro to machine learning, Intro to SQL, Intro to AI ethics</p>
-                </article>
-
-                <article>
-                    <header>
-                        <h3>Books</h3>
-                    </header>
-                    <p>Hands-on Machine Learning with Scikit learn and TensorFlow by Aurelian<br>
-                        Geron Deep Learning with Python by Francois Chollet</p>
-                </article>
+                        Kaggle Micro Courses - Beginner machine learning, Tensorflow, Deep learning, Pandas, Intro deep learning, Python, Pandas, Intro to machine learning, Intro to SQL, Intro to AI ethics<br>
+                        Books: Hands-on Machine Learning with Scikit learn and TensorFlow by Aurelian, Geron Deep Learning with Python by Francois Chollet</p>
+                </div>
             </div>
         </section>
 
